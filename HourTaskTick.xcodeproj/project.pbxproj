@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9A9BDEF2CE528DB005478BA /* HourTaskTickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9BDEE2CE528DB005478BA /* HourTaskTickApp.swift */; };
+		B9A9BDF12CE528DB005478BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9BDF02CE528DB005478BA /* ContentView.swift */; };
+		B9A9BDF32CE528DD005478BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9A9BDF22CE528DD005478BA /* Assets.xcassets */; };
+		B9A9BDF72CE528DD005478BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9A9BDF62CE528DD005478BA /* Preview Assets.xcassets */; };
+		B9A9BE012CE528DE005478BA /* HourTaskTickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9BE002CE528DE005478BA /* HourTaskTickTests.swift */; };
+		B9A9BE0B2CE528DE005478BA /* HourTaskTickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9BE0A2CE528DE005478BA /* HourTaskTickUITests.swift */; };
+		B9A9BE0D2CE528DE005478BA /* HourTaskTickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9BE0C2CE528DE005478BA /* HourTaskTickUITestsLaunchTests.swift */; };
+		B9A9BE1C2CE52A2B005478BA /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9BE1B2CE52A2B005478BA /* TaskModel.swift */; };
+		B9A9BE1E2CE52A74005478BA /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9BE1D2CE52A74005478BA /* TimerView.swift */; };
+		B9A9BE202CE52A7F005478BA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9BE1F2CE52A7F005478BA /* SettingsView.swift */; };
+		B9A9BE232CE52AA3005478BA /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9BE222CE52AA3005478BA /* TimeFormatter.swift */; };
+		B9A9BE252CE52AD8005478BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9BE242CE52AD8005478BA /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9A9BDFD2CE528DE005478BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9A9BDE32CE528DA005478BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9A9BDEA2CE528DA005478BA;
+			remoteInfo = HourTaskTick;
+		};
+		B9A9BE072CE528DE005478BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9A9BDE32CE528DA005478BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9A9BDEA2CE528DA005478BA;
+			remoteInfo = HourTaskTick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9A9BDEB2CE528DB005478BA /* HourTaskTick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HourTaskTick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A9BDEE2CE528DB005478BA /* HourTaskTickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourTaskTickApp.swift; sourceTree = "<group>"; };
+		B9A9BDF02CE528DB005478BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9A9BDF22CE528DD005478BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9A9BDF42CE528DD005478BA /* HourTaskTick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HourTaskTick.entitlements; sourceTree = "<group>"; };
+		B9A9BDF62CE528DD005478BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9A9BDFC2CE528DE005478BA /* HourTaskTickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HourTaskTickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A9BE002CE528DE005478BA /* HourTaskTickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourTaskTickTests.swift; sourceTree = "<group>"; };
+		B9A9BE062CE528DE005478BA /* HourTaskTickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HourTaskTickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A9BE0A2CE528DE005478BA /* HourTaskTickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourTaskTickUITests.swift; sourceTree = "<group>"; };
+		B9A9BE0C2CE528DE005478BA /* HourTaskTickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourTaskTickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9A9BE1B2CE52A2B005478BA /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		B9A9BE1D2CE52A74005478BA /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		B9A9BE1F2CE52A7F005478BA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B9A9BE222CE52AA3005478BA /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
+		B9A9BE242CE52AD8005478BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9A9BDE82CE528DA005478BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A9BDF92CE528DE005478BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A9BE032CE528DE005478BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9A9BDE22CE528DA005478BA = {
+			isa = PBXGroup;
+			children = (
+				B9A9BDED2CE528DB005478BA /* HourTaskTick */,
+				B9A9BDFF2CE528DE005478BA /* HourTaskTickTests */,
+				B9A9BE092CE528DE005478BA /* HourTaskTickUITests */,
+				B9A9BDEC2CE528DB005478BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9A9BDEC2CE528DB005478BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9A9BDEB2CE528DB005478BA /* HourTaskTick.app */,
+				B9A9BDFC2CE528DE005478BA /* HourTaskTickTests.xctest */,
+				B9A9BE062CE528DE005478BA /* HourTaskTickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9A9BDED2CE528DB005478BA /* HourTaskTick */ = {
+			isa = PBXGroup;
+			children = (
+				B9A9BE1A2CE52A0D005478BA /* Models */,
+				B9A9BE192CE52A04005478BA /* Views */,
+				B9A9BDEE2CE528DB005478BA /* HourTaskTickApp.swift */,
+				B9A9BDF02CE528DB005478BA /* ContentView.swift */,
+				B9A9BDF22CE528DD005478BA /* Assets.xcassets */,
+				B9A9BDF42CE528DD005478BA /* HourTaskTick.entitlements */,
+				B9A9BDF52CE528DD005478BA /* Preview Content */,
+				B9A9BE242CE52AD8005478BA /* AppDelegate.swift */,
+			);
+			path = HourTaskTick;
+			sourceTree = "<group>";
+		};
+		B9A9BDF52CE528DD005478BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9A9BDF62CE528DD005478BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9A9BDFF2CE528DE005478BA /* HourTaskTickTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9A9BE002CE528DE005478BA /* HourTaskTickTests.swift */,
+			);
+			path = HourTaskTickTests;
+			sourceTree = "<group>";
+		};
+		B9A9BE092CE528DE005478BA /* HourTaskTickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9A9BE0A2CE528DE005478BA /* HourTaskTickUITests.swift */,
+				B9A9BE0C2CE528DE005478BA /* HourTaskTickUITestsLaunchTests.swift */,
+			);
+			path = HourTaskTickUITests;
+			sourceTree = "<group>";
+		};
+		B9A9BE192CE52A04005478BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9A9BE212CE52A8C005478BA /* Helpers */,
+				B9A9BE1D2CE52A74005478BA /* TimerView.swift */,
+				B9A9BE1F2CE52A7F005478BA /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B9A9BE1A2CE52A0D005478BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B9A9BE1B2CE52A2B005478BA /* TaskModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B9A9BE212CE52A8C005478BA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B9A9BE222CE52AA3005478BA /* TimeFormatter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9A9BDEA2CE528DA005478BA /* HourTaskTick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A9BE102CE528DE005478BA /* Build configuration list for PBXNativeTarget "HourTaskTick" */;
+			buildPhases = (
+				B9A9BDE72CE528DA005478BA /* Sources */,
+				B9A9BDE82CE528DA005478BA /* Frameworks */,
+				B9A9BDE92CE528DA005478BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HourTaskTick;
+			productName = HourTaskTick;
+			productReference = B9A9BDEB2CE528DB005478BA /* HourTaskTick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9A9BDFB2CE528DE005478BA /* HourTaskTickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A9BE132CE528DE005478BA /* Build configuration list for PBXNativeTarget "HourTaskTickTests" */;
+			buildPhases = (
+				B9A9BDF82CE528DE005478BA /* Sources */,
+				B9A9BDF92CE528DE005478BA /* Frameworks */,
+				B9A9BDFA2CE528DE005478BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9A9BDFE2CE528DE005478BA /* PBXTargetDependency */,
+			);
+			name = HourTaskTickTests;
+			productName = HourTaskTickTests;
+			productReference = B9A9BDFC2CE528DE005478BA /* HourTaskTickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9A9BE052CE528DE005478BA /* HourTaskTickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A9BE162CE528DE005478BA /* Build configuration list for PBXNativeTarget "HourTaskTickUITests" */;
+			buildPhases = (
+				B9A9BE022CE528DE005478BA /* Sources */,
+				B9A9BE032CE528DE005478BA /* Frameworks */,
+				B9A9BE042CE528DE005478BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9A9BE082CE528DE005478BA /* PBXTargetDependency */,
+			);
+			name = HourTaskTickUITests;
+			productName = HourTaskTickUITests;
+			productReference = B9A9BE062CE528DE005478BA /* HourTaskTickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9A9BDE32CE528DA005478BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B9A9BDEA2CE528DA005478BA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B9A9BDFB2CE528DE005478BA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B9A9BDEA2CE528DA005478BA;
+					};
+					B9A9BE052CE528DE005478BA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B9A9BDEA2CE528DA005478BA;
+					};
+				};
+			};
+			buildConfigurationList = B9A9BDE62CE528DA005478BA /* Build configuration list for PBXProject "HourTaskTick" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9A9BDE22CE528DA005478BA;
+			productRefGroup = B9A9BDEC2CE528DB005478BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9A9BDEA2CE528DA005478BA /* HourTaskTick */,
+				B9A9BDFB2CE528DE005478BA /* HourTaskTickTests */,
+				B9A9BE052CE528DE005478BA /* HourTaskTickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9A9BDE92CE528DA005478BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A9BDF72CE528DD005478BA /* Preview Assets.xcassets in Resources */,
+				B9A9BDF32CE528DD005478BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A9BDFA2CE528DE005478BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A9BE042CE528DE005478BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9A9BDE72CE528DA005478BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A9BE202CE52A7F005478BA /* SettingsView.swift in Sources */,
+				B9A9BE232CE52AA3005478BA /* TimeFormatter.swift in Sources */,
+				B9A9BE1C2CE52A2B005478BA /* TaskModel.swift in Sources */,
+				B9A9BDF12CE528DB005478BA /* ContentView.swift in Sources */,
+				B9A9BE252CE52AD8005478BA /* AppDelegate.swift in Sources */,
+				B9A9BE1E2CE52A74005478BA /* TimerView.swift in Sources */,
+				B9A9BDEF2CE528DB005478BA /* HourTaskTickApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A9BDF82CE528DE005478BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A9BE012CE528DE005478BA /* HourTaskTickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A9BE022CE528DE005478BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A9BE0D2CE528DE005478BA /* HourTaskTickUITestsLaunchTests.swift in Sources */,
+				B9A9BE0B2CE528DE005478BA /* HourTaskTickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9A9BDFE2CE528DE005478BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9A9BDEA2CE528DA005478BA /* HourTaskTick */;
+			targetProxy = B9A9BDFD2CE528DE005478BA /* PBXContainerItemProxy */;
+		};
+		B9A9BE082CE528DE005478BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9A9BDEA2CE528DA005478BA /* HourTaskTick */;
+			targetProxy = B9A9BE072CE528DE005478BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B9A9BE0E2CE528DE005478BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9A9BE0F2CE528DE005478BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B9A9BE112CE528DE005478BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HourTaskTick/HourTaskTick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HourTaskTick/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bardculture.HourTaskTick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9A9BE122CE528DE005478BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HourTaskTick/HourTaskTick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HourTaskTick/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bardculture.HourTaskTick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9A9BE142CE528DE005478BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bardculture.HourTaskTickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HourTaskTick.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HourTaskTick";
+			};
+			name = Debug;
+		};
+		B9A9BE152CE528DE005478BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bardculture.HourTaskTickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HourTaskTick.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HourTaskTick";
+			};
+			name = Release;
+		};
+		B9A9BE172CE528DE005478BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bardculture.HourTaskTickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HourTaskTick;
+			};
+			name = Debug;
+		};
+		B9A9BE182CE528DE005478BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bardculture.HourTaskTickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HourTaskTick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9A9BDE62CE528DA005478BA /* Build configuration list for PBXProject "HourTaskTick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A9BE0E2CE528DE005478BA /* Debug */,
+				B9A9BE0F2CE528DE005478BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A9BE102CE528DE005478BA /* Build configuration list for PBXNativeTarget "HourTaskTick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A9BE112CE528DE005478BA /* Debug */,
+				B9A9BE122CE528DE005478BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A9BE132CE528DE005478BA /* Build configuration list for PBXNativeTarget "HourTaskTickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A9BE142CE528DE005478BA /* Debug */,
+				B9A9BE152CE528DE005478BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A9BE162CE528DE005478BA /* Build configuration list for PBXNativeTarget "HourTaskTickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A9BE172CE528DE005478BA /* Debug */,
+				B9A9BE182CE528DE005478BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9A9BDE32CE528DA005478BA /* Project object */;
+}
